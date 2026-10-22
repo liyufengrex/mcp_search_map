@@ -116,3 +116,30 @@ Cursor 会合并项目级和用户级配置；同名时以项目级为准。市�
 ```text
 已向系统地图发送搜索请求：西湖景区
 ```
+
+## 补充：发布与安装
+
+发布和安装都指定官方源 `https://registry.npmjs.org`。登录时 npm 会要求输入动态验证码，发布时可能还会再要一次。
+
+在项目目录发布：
+
+```bash
+npm login --registry https://registry.npmjs.org
+npm publish --registry https://registry.npmjs.org
+```
+
+看到 `+ local-maps-mcp@1.0.0` 表示发布成功。
+
+发布成功后可进行全局安装：
+
+```bash
+npm install -g local-maps-mcp --registry https://registry.npmjs.org
+```
+
+检查是否安装完成：
+
+```bash
+command -v local-maps-mcp
+```
+
+这条命令打印出可执行文件路径，就表示当前终端可以找到它。随后在 AI 工具的配置里把启动命令写成 `local-maps-mcp`。
