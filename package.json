@@ -2,8 +2,17 @@
   "name": "local-maps-mcp",
   "version": "1.0.0",
   "description": "在 macOS 系统地图中搜索地点的本地 MCP 服务",
+  "mcpName": "io.github.liyufengrex/mcp_search_map",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyufengrex/mcp_search_map.git"
+  },
+  "homepage": "https://github.com/liyufengrex/mcp_search_map#readme",
+  "bugs": {
+    "url": "https://github.com/liyufengrex/mcp_search_map/issues"
+  },
   "keywords": [
     "mcp",
     "macos",

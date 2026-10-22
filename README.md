@@ -1,6 +1,10 @@
 # local-maps-mcp
 
+> 用一个小项目，学会开发本地 MCP 服务
+
 一个跑在 macOS 上的本地 MCP 服务。在 AI 工具里配置后说「在地图里搜索西湖景区」，它会打开系统自带的「地图」并搜索这个地点。
+
+源码：<https://github.com/liyufengrex/mcp_search_map>
 
 ## MCP 是什么
 
