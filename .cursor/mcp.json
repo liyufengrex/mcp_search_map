@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "local-maps-mcp": {
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/src/index.js"
+      ]
+    }
+  }
+}
